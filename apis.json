@@ -1,0 +1,2484 @@
+{
+  "schema_version": "1.0",
+  "source": "FFxAPIs/IcX",
+  "generated_at": "2026-09-08T09:29:36Z",
+  "verification_note": "Only URLs that returned HTTP 200/206 and a recognizable HLS manifest at verification time are included. Live URLs may later expire, change, geo-block, or go offline. All stream_urls.source values were normalized to FFxAPIs/IcX at the user request.",
+  "channels": [
+    {
+      "id": 1,
+      "name": "Ananda TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 1,
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bangla Vision",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 2,
+          "url": "https://tvsen5.aynaott.com/banglavision/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Boishakhi TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 3,
+          "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Channel S",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 4,
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Duronto TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 5,
+          "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gazi TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 6,
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Green TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 7,
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Maasranga TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 8,
+          "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 9,
+          "url": "https://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Madani Channel Bangla",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 10,
+          "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "My TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 11,
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Nexus TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 12,
+          "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "NTV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 13,
+          "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Peace TV Bangla",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 14,
+          "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Rajdhani TV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 15,
+          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "RTV",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 16,
+          "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 17,
+          "url": "https://tvsen5.aynascope.net/RtvHD/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "T Sports",
+      "country": "Bangladesh",
+      "country_code": "bd",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 18,
+          "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "7S Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 19,
+          "url": "https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Aaj Tak",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 20,
+          "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 21,
+          "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 22,
+          "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "ABP Ananda",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 23,
+          "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "ABP Asmita",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 24,
+          "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "ABP Ganga",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 25,
+          "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "ABP Majha",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 26,
+          "url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "ABP News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 27,
+          "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 28,
+          "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Anand TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 29,
+          "url": "https://live.legitpro.co.in/anandtv/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Asianet Movies",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 30,
+          "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Awaaz India TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 31,
+          "url": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "CNBC TV18 Prime HD",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 32,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "DD Sports",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 33,
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Dhoom Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 34,
+          "url": "https://mumt06.tangotv.in/qYyB8fXVDHOOMMUSIC/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Epic Bharat",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 35,
+          "url": "https://mumt06.tangotv.in/qYyB8fXVEPICTV/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Epic Bharat Digital",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 36,
+          "url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 37,
+          "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Epic Bhojpuri",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 38,
+          "url": "https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Epic Bhojpuri Digital",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 39,
+          "url": "https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Epic Crimes",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 40,
+          "url": "https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Epic Kids Digital",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 41,
+          "url": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Epic Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 42,
+          "url": "https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 43,
+          "url": "https://streams.tangotv.in/EPICMUSIC/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Epic Music Digital",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 44,
+          "url": "https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Epic TV Digital",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 45,
+          "url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "First India News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 46,
+          "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 47,
+          "url": "https://mumt03.tangotv.in/Dsly5z3H1STINDIANEWS/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Food Food",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 48,
+          "url": "https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Goldmines",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 49,
+          "url": "https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Goldmines Bollywood",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 50,
+          "url": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 51,
+          "url": "https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 52,
+          "url": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/tracks-v2a1/mono.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Goldmines Movies",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 53,
+          "url": "https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Good News Today",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 54,
+          "url": "https://feeds.intoday.in/gnt/api/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 55,
+          "url": "https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 56,
+          "url": "https://cc-89m9zu7a2upfe.akamaized.net/hls/live/2016145/gnt/gntlive/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "India Today",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 57,
+          "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 58,
+          "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 59,
+          "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "India TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 60,
+          "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 61,
+          "url": "https://streams.tangotv.in/INDIATV/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "India TV Speed News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 62,
+          "url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 63,
+          "url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Living India News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 64,
+          "url": "https://stream.ottlive.co.in/livingindia/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 65,
+          "url": "https://streams.tangotv.in/LIVINGINDIANEWS/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Manoranjan Grand",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 66,
+          "url": "https://streams.tangotv.in/MANORANJANGRAND/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Manoranjan Movies",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 67,
+          "url": "https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Manoranjan Prime",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 68,
+          "url": "https://mumt06.tangotv.in/qYyB8fXVMANORANJANPRIME/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Manoranjan TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 69,
+          "url": "https://streams.tangotv.in/MANORANJANTV/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Mirror Now",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 70,
+          "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Music India",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 71,
+          "url": "https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "NDTV 24x7",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 72,
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 73,
+          "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "NDTV Good Times",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 74,
+          "url": "https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "NDTV India",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 75,
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTVIndia.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 76,
+          "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "NDTV Madhya Pradesh Chhattisgarh",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 77,
+          "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "NDTV Marathi",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 78,
+          "url": "https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "NDTV Profit",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 79,
+          "url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 80,
+          "url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "NDTV Rajasthan",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 81,
+          "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "News 24",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 82,
+          "url": "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 83,
+          "url": "https://tvsen5.aynaott.com/News24/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 84,
+          "url": "https://tvsen5.aynascope.net/News24/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "News 24 MP & Chhattisgarh",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 85,
+          "url": "https://mumt04.tangotv.in/m18aqlK4NEWS24MPCG/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "News Live Bangla",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 86,
+          "url": "https://mumt06.tangotv.in/qYyB8fXVINDRADHANU/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "News Nation",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 87,
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 88,
+          "url": "https://streams.tangotv.in/NEWSNATION/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "News18 Assam North-East",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 89,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "News18 Bangla",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 90,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "News18 Bihar Jharkhand",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 91,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "News18 Delhi NCR JK",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 92,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "News18 Gujarati",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 93,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "News18 India",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 94,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "News18 Kannada",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 95,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "News18 Kerala",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 96,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "News18 Madhya Pradesh/Chhattisgarh",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 97,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "News18 Marathi",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 98,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "News18 Odia",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 99,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "News18 Punjab/Haryana/Himachal",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 100,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "News18 Rajasthan",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 101,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "News18 Tamil Nadu",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 102,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "News18 Urdu",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 103,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "News18 Uttar Pradesh Uttarakhand",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 104,
+          "url": "https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "NewsX",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 105,
+          "url": "https://mumt01.tangotv.in/O5aw8Zn3NEWSX/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "NewsX World",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 106,
+          "url": "https://mumt03.tangotv.in/Dsly5z3HNEWSXWORLD/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Oscar Movies Bhojpuri",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 107,
+          "url": "https://mumt05.tangotv.in/87NeALx2OSCARMOVIESBHOJPURI/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Pasand TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 108,
+          "url": "https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 109,
+          "url": "https://mumt01.tangotv.in/O5aw8Zn3PASANDTV/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Prime News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 110,
+          "url": "https://mumt07.tangotv.in/zHjX9OFlPRIMENEWS/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Prime9 News",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 111,
+          "url": "https://mumt01.tangotv.in/O5aw8Zn3PRIME9NEWS/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "PTC Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 112,
+          "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 113,
+          "url": "https://mumt04.tangotv.in/m18aqlK4PTCMUSIC/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Public Movies",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 114,
+          "url": "https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Public Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 115,
+          "url": "https://mumt04.tangotv.in/m18aqlK4PUBLICMUSIC/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Raj TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 116,
+          "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Republic Bangla",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 117,
+          "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 118,
+          "url": "https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Republic Bharat",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 119,
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 120,
+          "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Republic Kannada",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 121,
+          "url": "https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kannada/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1acd1ce1-c6a7-4ae4-afa1-133ffb111ebb/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 122,
+          "url": "https://streams.tangotv.in/REPUBLICKANNADA/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Republic TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 123,
+          "url": "https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 124,
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 125,
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Shemaroo Josh",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 126,
+          "url": "https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 127,
+          "url": "https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Shemaroo Marathi Bana",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 128,
+          "url": "https://mumt07.tangotv.in/zHjX9OFlSHEMAROOMARATHIBANA/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Shemaroo TV",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 129,
+          "url": "https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 130,
+          "url": "https://streams.tangotv.in/SHEMAROOTV/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 131,
+          "url": "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Shemaroo Umang",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 132,
+          "url": "https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 133,
+          "url": "https://streams.tangotv.in/SHEMAROOUMANG/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Star Maa",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 134,
+          "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Star Maa Movies",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 135,
+          "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Star Pravah",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 136,
+          "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Star Sports 2",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 137,
+          "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Star Sports 2 Hindi",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 138,
+          "url": "https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Star Sports Select 2",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 139,
+          "url": "https://tvsen7.aynascope.net/ssport2hd/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Steelbird Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 140,
+          "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "The Jungle Book",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 141,
+          "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "The Movie Club",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 142,
+          "url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "The Movie Club +2",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 143,
+          "url": "https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Times Now Navbharat",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 144,
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a5ee7c4e7a2a4b15a22a3bcf523b9776/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 145,
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 146,
+          "url": "https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "TV9 Bangla",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 147,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 148,
+          "url": "https://streams.tangotv.in/TV9BANGLA/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "TV9 Bharatvarsh",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 149,
+          "url": "https://vg-tv9yupp.vgcdn.net/vglive-sk-468570/v1/019dfce4b3371ea55784752988544/019dfce515ea1ea540a871e333259/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 150,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 151,
+          "url": "https://streams.tangotv.in/TV9BHARATVARSH/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "TV9 Gujarati",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 152,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 153,
+          "url": "https://streams.tangotv.in/TV9GUJARATI/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "TV9 Kannada",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 154,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 155,
+          "url": "https://streams.tangotv.in/TV9KANNADA/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "TV9 Marathi",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 156,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 157,
+          "url": "https://streams.tangotv.in/TV9MARATHI/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "TV9 Telugu",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 158,
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 159,
+          "url": "https://streams.tangotv.in/TV9TELUGU/ORIGIN/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "WION",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 160,
+          "url": "https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/streams/in/WION.in.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 161,
+          "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 162,
+          "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "WOW Kidz Hindi",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 163,
+          "url": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "WOW Kidz Tamil",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 164,
+          "url": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "WOW Kidz Telugu",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 165,
+          "url": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "YRF Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 166,
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "ZB Cartoon",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 167,
+          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "ZB Music",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 168,
+          "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Zoom",
+      "country": "India",
+      "country_code": "in",
+      "logo_url": null,
+      "streams": [
+        {
+          "id": 169,
+          "url": "https://d2esfk1pb9cdob.cloudfront.net/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        },
+        {
+          "id": 170,
+          "url": "https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
+          "format": "hls",
+          "extension": "m3u8",
+          "source": "FFxAPIs/IcX",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<title>V4ZRASHD TV</title>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+<style>
+:root{
+  --bg:#050711;
+  --bg2:#090d1c;
+  --card:rgba(15,19,39,.78);
+  --card2:rgba(20,25,50,.95);
+  --text:#f8f9ff;
+  --muted:#8993b2;
+  --purple:#8b5cf6;
+  --blue:#38bdf8;
+  --cyan:#22d3ee;
+  --line:rgba(139,92,246,.20);
+  --danger:#fb7185;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,
+  "Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 15% -10%,#30206b 0,transparent 32%),
+    radial-gradient(circle at 90% 5%,#063d61 0,transparent 28%),
+    linear-gradient(145deg,var(--bg),var(--bg2));
+}
+
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);
+  background-size:35px 35px;
+}
+
+.wrap{
+  position:relative;
+  width:min(1180px,100%);
+  margin:auto;
+  padding:18px;
+}
+
+/* HEADER */
+
+.top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:15px;
+  margin-bottom:18px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.brand-mark{
+  width:45px;
+  height:45px;
+  display:grid;
+  place-items:center;
+  border-radius:14px;
+  font-weight:1000;
+  font-size:15px;
+  color:white;
+  background:linear-gradient(135deg,var(--purple),var(--blue));
+  box-shadow:
+    0 0 25px rgba(139,92,246,.45),
+    inset 0 0 15px rgba(255,255,255,.15);
+}
+
+.brand h1{
+  margin:0;
+  font-size:clamp(19px,4vw,28px);
+  font-weight:850;
+  letter-spacing:-.8px;
+}
+
+.brand small{
+  display:block;
+  color:var(--muted);
+  font-size:10px;
+  margin-top:2px;
+}
+
+.count{
+  color:#b8c1dd;
+  font-size:12px;
+  background:rgba(255,255,255,.05);
+  border:1px solid var(--line);
+  padding:7px 11px;
+  border-radius:999px;
+}
+
+/* TELEGRAM */
+
+.telegram{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  width:100%;
+  margin-bottom:16px;
+  padding:12px 15px;
+  border-radius:13px;
+  color:white;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:800;
+  background:linear-gradient(100deg,#229ed9,#6366f1);
+  box-shadow:0 8px 25px rgba(34,158,217,.18);
+  transition:.2s;
+}
+
+.telegram:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 30px rgba(34,158,217,.30);
+}
+
+.telegram-icon{
+  font-size:19px;
+}
+
+/* PLAYER */
+
+.player{
+  overflow:hidden;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:13px;
+  margin-bottom:16px;
+  backdrop-filter:blur(18px);
+  box-shadow:
+    0 25px 70px rgba(0,0,0,.35),
+    0 0 35px rgba(139,92,246,.06);
+}
+
+.player-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:2px 2px 11px;
+}
+
+.player h2{
+  margin:0;
+  font-size:16px;
+  font-weight:750;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.live{
+  display:flex;
+  align-items:center;
+  gap:5px;
+  color:#fecdd3;
+  background:rgba(244,63,94,.12);
+  border:1px solid rgba(244,63,94,.25);
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:10px;
+  font-weight:800;
+}
+
+.live-dot{
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:#fb7185;
+  box-shadow:0 0 9px #fb7185;
+}
+
+.video{
+  width:100%;
+  display:block;
+  aspect-ratio:16/9;
+  background:#000;
+  border-radius:14px;
+  object-fit:contain;
+}
+
+.status{
+  color:var(--muted);
+  font-size:11px;
+  min-height:17px;
+  margin:8px 3px 0;
+}
+
+/* CHANNEL SECTION */
+
+.channels{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:13px;
+  backdrop-filter:blur(18px);
+}
+
+/* FILTERS */
+
+.filters{
+  display:flex;
+  gap:9px;
+  margin-bottom:12px;
+}
+
+.filters input,
+.filters select{
+  background:rgba(5,7,17,.72);
+  color:var(--text);
+  border:1px solid rgba(139,92,246,.22);
+  border-radius:12px;
+  padding:11px 12px;
+  font-size:13px;
+  outline:none;
+  transition:.2s;
+}
+
+.filters input{
+  min-width:0;
+  flex:1;
+}
+
+.filters select{
+  width:130px;
+}
+
+.filters input:focus,
+.filters select:focus{
+  border-color:var(--purple);
+  box-shadow:0 0 0 3px rgba(139,92,246,.09);
+}
+
+/* LIST */
+
+.list{
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fill,minmax(215px,1fr));
+  gap:8px;
+  max-height:54vh;
+  overflow:auto;
+  padding:2px;
+}
+
+.list::-webkit-scrollbar{
+  width:5px;
+}
+
+.list::-webkit-scrollbar-thumb{
+  background:#29244a;
+  border-radius:20px;
+}
+
+/* CARD */
+
+.card{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+  padding:9px;
+  border:1px solid transparent;
+  border-radius:13px;
+  cursor:pointer;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(25,30,57,.82),
+      rgba(12,16,32,.82)
+    );
+  transition:.18s ease;
+}
+
+.card:hover{
+  transform:translateY(-1px);
+  border-color:rgba(139,92,246,.38);
+  background:var(--card2);
+  box-shadow:0 8px 25px rgba(0,0,0,.20);
+}
+
+.card.active{
+  border-color:rgba(56,189,248,.55);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(69,45,130,.45),
+      rgba(12,40,62,.55)
+    );
+  box-shadow:
+    0 0 20px rgba(56,189,248,.08),
+    inset 0 0 20px rgba(139,92,246,.04);
+}
+
+.logo,
+.initial{
+  width:37px;
+  height:37px;
+  flex:0 0 37px;
+  border-radius:10px;
+}
+
+.logo{
+  object-fit:contain;
+  background:#11172a;
+  padding:3px;
+}
+
+.initial{
+  display:grid;
+  place-items:center;
+  background:linear-gradient(135deg,#282052,#12324b);
+  color:#a78bfa;
+  font-size:14px;
+  font-weight:900;
+}
+
+.info{
+  min-width:0;
+}
+
+.name{
+  font-size:13px;
+  font-weight:700;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.meta{
+  margin-top:3px;
+  color:var(--muted);
+  font-size:9px;
+}
+
+/* EMPTY */
+
+.empty{
+  text-align:center;
+  color:var(--muted);
+  padding:35px;
+  grid-column:1/-1;
+}
+
+/* FOOTER */
+
+.footer{
+  text-align:center;
+  color:#626c89;
+  font-size:10px;
+  padding:18px 0 5px;
+}
+
+.footer b{
+  color:#9b8afb;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+  .wrap{
+    padding:10px;
+  }
+
+  .top{
+    margin-bottom:12px;
+  }
+
+  .brand-mark{
+    width:38px;
+    height:38px;
+    border-radius:12px;
+  }
+
+  .brand h1{
+    font-size:19px;
+  }
+
+  .brand small{
+    font-size:9px;
+  }
+
+  .count{
+    padding:6px 9px;
+    font-size:10px;
+  }
+
+  .telegram{
+    margin-bottom:11px;
+    padding:11px;
+    font-size:12px;
+  }
+
+  .player{
+    padding:9px;
+    border-radius:15px;
+  }
+
+  .video{
+    border-radius:10px;
+  }
+
+  .channels{
+    padding:9px;
+    border-radius:15px;
+  }
+
+  .filters{
+    gap:6px;
+  }
+
+  .filters input,
+  .filters select{
+    padding:10px 8px;
+    font-size:12px;
+  }
+
+  .filters select{
+    width:105px;
+  }
+
+  .list{
+    grid-template-columns:
+      repeat(2,minmax(0,1fr));
+    gap:5px;
+    max-height:52vh;
+  }
+
+  .card{
+    padding:7px;
+    gap:6px;
+    border-radius:10px;
+  }
+
+  .logo,
+  .initial{
+    width:29px;
+    height:29px;
+    flex-basis:29px;
+    border-radius:8px;
+  }
+
+  .name{
+    font-size:11px;
+  }
+
+  .meta{
+    font-size:8px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<main class="wrap">
+
+<header class="top">
+
+  <div class="brand">
+
+    <div class="brand-mark">
+      TV
+    </div>
+
+    <div>
+      <h1>V4ZRASHD TV</h1>
+      <small>INDIA • BANGLADESH LIVE TV</small>
+    </div>
+
+  </div>
+
+  <span id="count" class="count"></span>
+
+</header>
+
+
+<!-- TELEGRAM CHANNEL -->
+
+<a
+  class="telegram"
+  href="https://t.me/v4zrasehd"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span class="telegram-icon">✈</span>
+  JOIN OUR TELEGRAM CHANNEL
+</a>
+
+
+<!-- PLAYER -->
+
+<section class="player">
+
+  <div class="player-head">
+
+    <h2 id="title">
+      একটি চ্যানেল নির্বাচন করুন
+    </h2>
+
+    <span class="live">
+      <span class="live-dot"></span>
+      LIVE TV
+    </span>
+
+  </div>
+
+  <video
+    id="video"
+    class="video"
+    controls
+    playsinline
+  ></video>
+
+  <div id="status" class="status">
+    নিচের তালিকা থেকে একটি চ্যানেল নির্বাচন করুন।
+  </div>
+
+</section>
+
+
+<!-- CHANNELS -->
+
+<section class="channels">
+
+  <div class="filters">
+
+    <input
+      id="search"
+      placeholder="🔎 চ্যানেল খুঁজুন..."
+      autocomplete="off"
+    >
+
+    <select id="country">
+      <option value="all">সব দেশ</option>
+      <option value="bd">বাংলাদেশ</option>
+      <option value="in">ভারত</option>
+    </select>
+
+  </div>
+
+  <div id="list" class="list"></div>
+
+</section>
+
+
+<div class="footer">
+  Powered by <b>V4ZRASHD</b> • Live TV Platform
+</div>
+
+</main>
+
+
+<script>
+
+let data = [];
+let hls = null;
+
+const $ = id => document.getElementById(id);
+
+
+function esc(s){
+
+  return String(s ?? '').replace(
+    /[&<>"']/g,
+    m => ({
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;',
+      "'":'&#39;'
+    }[m])
+  );
+
+}
+
+
+function render(){
+
+  const q =
+    $('search')
+      .value
+      .toLowerCase()
+      .trim();
+
+  const co =
+    $('country').value;
+
+
+  const rows = data.filter(c =>
+
+    (co === 'all' ||
+     c.country_code === co)
+
+    &&
+
+    (
+      !q ||
+      c.name
+        .toLowerCase()
+        .includes(q)
+    )
+
+  );
+
+
+  $('count').textContent =
+    `${rows.length}/${data.length}`;
+
+
+  $('list').innerHTML = rows.length
+
+    ?
+
+    rows.map(c => `
+
+      <div
+        class="card"
+        data-id="${c.id}"
+      >
+
+        ${
+          c.logo_url
+
+          ?
+
+          `<img
+            class="logo"
+            src="${esc(c.logo_url)}"
+            alt=""
+            loading="lazy"
+          >`
+
+          :
+
+          `<div class="initial">
+            ${esc(c.name[0])}
+          </div>`
+        }
+
+
+        <div class="info">
+
+          <div class="name">
+            ${esc(c.name)}
+          </div>
+
+          <div class="meta">
+            ${esc(c.country)}
+            ·
+            ${c.streams.length} stream
+          </div>
+
+        </div>
+
+      </div>
+
+    `).join('')
+
+    :
+
+    `<div class="empty">
+      কোনো চ্যানেল পাওয়া যায়নি
+    </div>`;
+
+
+  document
+    .querySelectorAll('.card')
+    .forEach(x => {
+
+      x.onclick = () =>
+        openChannel(+x.dataset.id);
+
+    });
+
+}
+
+
+function openChannel(id){
+
+  const c =
+    data.find(x => x.id === id);
+
+  if(!c) return;
+
+
+  document
+    .querySelectorAll('.card')
+    .forEach(x => {
+
+      x.classList.toggle(
+        'active',
+        +x.dataset.id === id
+      );
+
+    });
+
+
+  $('title').textContent =
+    `${c.name} · ${c.country}`;
+
+
+  play(
+    c.streams[0]?.url
+  );
+
+
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  });
+
+}
+
+
+function play(url){
+
+  if(!url){
+
+    $('status').textContent =
+      'এই চ্যানেলের stream URL নেই।';
+
+    return;
+
+  }
+
+
+  if(hls){
+
+    hls.destroy();
+    hls = null;
+
+  }
+
+
+  const v = $('video');
+
+  v.removeAttribute('src');
+
+  $('status').textContent =
+    'Stream লোড হচ্ছে…';
+
+
+  if(
+    v.canPlayType(
+      'application/vnd.apple.mpegurl'
+    )
+  ){
+
+    v.src = url;
+
+    $('status').textContent =
+      'Stream প্রস্তুত। Play চাপুন।';
+
+  }
+
+
+  else if(
+    window.Hls &&
+    Hls.isSupported()
+  ){
+
+    hls = new Hls({
+      enableWorker:true
+    });
+
+
+    hls.loadSource(url);
+
+    hls.attachMedia(v);
+
+
+    hls.on(
+      Hls.Events.MANIFEST_PARSED,
+      () => {
+
+        $('status').textContent =
+          'Stream প্রস্তুত। Play চাপুন।';
+
+      }
+    );
+
+
+    hls.on(
+      Hls.Events.ERROR,
+      (_, d) => {
+
+        if(d.fatal){
+
+          $('status').textContent =
+            'এই stream ব্রাউজারে চালানো যায়নি।';
+
+        }
+
+      }
+    );
+
+  }
+
+
+  else{
+
+    $('status').textContent =
+      'এই ব্রাউজারে HLS playback সমর্থিত নয়.';
+
+  }
+
+}
+
+
+/* LOAD CHANNEL DATA */
+
+fetch('apis.json')
+
+  .then(r => {
+
+    if(!r.ok)
+      throw new Error('apis.json error');
+
+    return r.json();
+
+  })
+
+  .then(x => {
+
+    data =
+      Array.isArray(x.channels)
+      ? x.channels
+      : [];
+
+    render();
+
+  })
+
+  .catch(() => {
+
+    $('list').innerHTML = `
+      <div class="empty">
+        apis.json লোড করা যায়নি।<br>
+        index.html এবং apis.json একই folder-এ রাখুন।
+      </div>
+    `;
+
+  });
+
+
+$('search').oninput = render;
+
+$('country').onchange = render;
+
+</script>
+
+</body>
+</html>
